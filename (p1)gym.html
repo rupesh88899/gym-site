@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rupesh gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Noto+Sans:wght@200&family=PT+Serif:ital@0;1&family=Playfair+Display&family=Roboto:wght@300&family=Tilt+Neon&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<style>
+    /*css reset8*/
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('gymfitness1.jpg');
+        background-size: cover;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    .left {
+ /*       border: 2px solid red;   */   
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 22px;
+        line-height: 1;
+    }
+
+    .mid {
+        display: block;
+        width: 46%;
+        margin: 20px auto;
+ /*       border: 2px solid green;              */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+ /*       border: 2px solid yellow;                 */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(87, 83, 83);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        background-color: rgb(46, 42, 42);
+    }
+    .forngroup input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        margin: 11px auto;
+        border: 2px solid black;
+        font-size:27px ;
+        border-radius: 8px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+    .container h1{
+        text-align: center;
+        font-size: 43px;
+    }
+    .container button{
+        display: block;
+        width: 50%;
+        margin:39px auto;
+        font-size: 24px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+
+        <div class="left">
+            <img src="logofitness.jpg" alt="">
+            <div>rupesh gym</div>
+        </div>
+        <!-- mid for nevigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right for button  -->
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">email us</button>
+        </div>
+        <div class="container">
+            <h1>join the beat gym of jabalpur</h1>
+            <form action="noaction.php">
+                <div class="forngroup">
+                    <input type="text" name="" placeholder="enter your name ">
+                </div>
+                <div class="forngroup">
+                    <input type="text" name="" placeholder="enter your gender ">
+                </div>
+                <div class="forngroup">
+                    <input type="text" name="" placeholder="enter your locality ">
+                </div>
+                <div class="forngroup">
+                    <input type="text" name="" placeholder="enter your age ">
+                </div>
+                <div class="forngroup">
+                    <input type="text" name="" placeholder="enter your numbe ">
+                </div>
+                <div class="forngroup">
+                    <input type="text" name="" placeholder="enter your email ">
+                </div>
+                
+                <button class="btn">submit</button>
+
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
